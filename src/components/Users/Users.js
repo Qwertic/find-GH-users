@@ -16,7 +16,7 @@ const Users = ({ users, loading }) => {
         );
     }
 }
-Users.PropTypes = {
+Users.propTypes = {
     users: PropTypes.array.isRequired,
     loading: PropTypes.bool.isRequired
 };
@@ -24,6 +24,6 @@ Users.PropTypes = {
 const usersStyle = {
     display: 'grid',
     gridTemplateColumns: 'repeat(4, 1fr)',
-    gridGap: '.5rem'
+    gridGap: '1rem'
 }
 export default Users;

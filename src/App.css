@@ -111,9 +111,11 @@ img {
 
 /* Cards */
 .card {
-  padding: 1rem;
+  padding: 2rem;
+  border-radius: 2px;
   border: #ccc 1px;
   margin: 0.7rem 0;
+  box-shadow: 0 0 4px rgba(0,0,0,0.1);
 }
 
 /* List */
@@ -169,6 +171,10 @@ img {
 }
 .my-1 {
   margin: 1rem 0;
+  border-radius: 4px;
+  left: 40%;
+  top: 1.5rem;
+  position: relative;
 }
 .my-2 {
   margin: 2rem 0;
